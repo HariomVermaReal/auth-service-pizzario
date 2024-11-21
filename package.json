@@ -1,30 +1,33 @@
 {
-  "name": "auth-service",
-  "version": "1.0.0",
-  "description": "Authentication service, managing user registration, login, and authorization.",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HariomVermaReal/auth-service-pizzario.git"
-  },
-  "keywords": [
-    "auth",
-    "authentication",
-    "authorization",
-    "microservice"
-  ],
-  "author": "Hari Om",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HariomVermaReal/auth-service-pizzario/issues"
-  },
-  "homepage": "https://github.com/HariomVermaReal/auth-service-pizzario#readme",
-  "devDependencies": {
-    "@types/node": "^22.9.1",
-    "typescript": "^5.6.3"
-  }
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "Authentication service, managing user registration, login, and authorization.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/server.js",
+        "formate:fix": "npx prettier . --write",
+        "formate:check": "npx prettier . --check",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HariomVermaReal/auth-service-pizzario.git"
+    },
+    "keywords": [
+        "auth",
+        "authentication",
+        "authorization",
+        "microservice"
+    ],
+    "author": "Hari Om",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/HariomVermaReal/auth-service-pizzario/issues"
+    },
+    "homepage": "https://github.com/HariomVermaReal/auth-service-pizzario#readme",
+    "devDependencies": {
+        "@types/node": "^22.9.1",
+        "prettier": "3.3.3",
+        "typescript": "^5.6.3"
+    }
 }

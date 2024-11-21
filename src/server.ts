@@ -1,5 +1,5 @@
 function welcme(name: string) {
-  console.log("welcome ", +name);
+    console.log('welcome ', +name)
 }
 
-welcme("Hariom");
+welcme('Hariom')
