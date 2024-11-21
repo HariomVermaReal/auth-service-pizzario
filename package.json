@@ -17,10 +17,14 @@
     "authorization",
     "microservice"
   ],
-  "author": "Hariom Verma",
+  "author": "Hari Om",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HariomVermaReal/auth-service-pizzario/issues"
   },
-  "homepage": "https://github.com/HariomVermaReal/auth-service-pizzario#readme"
+  "homepage": "https://github.com/HariomVermaReal/auth-service-pizzario#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "typescript": "^5.6.3"
+  }
 }
