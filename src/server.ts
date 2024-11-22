@@ -1,5 +1,3 @@
-function welcme(name: string) {
-    return name
-}
+import { Config } from './config'
 
-welcme('Hariom')
+console.log(Config.PORT)
