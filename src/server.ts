@@ -1,5 +1,11 @@
 function welcme(name: string) {
-    console.log('welcome ', +name)
+    const user = {
+        name: 'HAriom',
+    }
+
+    const name1 = user.name
+
+    return name + name1
 }
 
 welcme('Hariom')
