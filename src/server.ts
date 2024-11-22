@@ -1,6 +1,6 @@
 function welcme(name: string) {
     const user = {
-        name: 'HAriom',
+        name: 'Hey',
     }
 
     const name1 = user.name
@@ -9,3 +9,4 @@ function welcme(name: string) {
 }
 
 welcme('Hariom')
+console.log(welcme('Hariom'))
